@@ -1,14 +1,16 @@
-export default function Entry(){
+export default function Entry(props){
+
     return (
         <>
         <article>
-            <img src="/src/assets/book-icon.png" alt="" />
+            <img src={props.img.src} alt={props.img.alt} />
 
             <div>
-                <h1>Title</h1>
-                <p>Rating: 4/10</p>
-                <p>Status: completed</p>
-                <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vel ipsam modi! Ratione sit, non voluptate incidunt officiis illo odio sequi dolores rem sint consequatur enim quis quidem architecto commodi accusamus ad rerum. Sequi, at sit numquam ea, aperiam asperiores officiis sint nostrum quis eaque repudiandae ducimus similique voluptatem culpa.</p>
+                <h1>{props.title}</h1>
+                <p><strong>Author:</strong> {props.author}</p>
+                <p><strong>Rating:</strong> {props.rating}/10</p>
+                <p><strong>Status:</strong> {props.status}</p>
+                <p><strong>Synopsis:</strong> {props.synopsis}</p>
             </div>
         </article>
         </>

@@ -33,7 +33,16 @@ header > h1{
 article{
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 article > img{
-  height: 60px;
+  height: 200px;
+}
+
+div > h1{
+  margin-bottom: 8px;
+}
+
+div > p{
+  margin-bottom: 4px;
 }
