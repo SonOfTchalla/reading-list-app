@@ -46,3 +46,9 @@ div > h1{
 div > p{
   margin-bottom: 4px;
 }
+
+button{
+  margin: 0 4px 0 0;
+  padding: 0 4px 0 4px;
+  font-weight: bold;
+}
