@@ -1,7 +1,7 @@
 export default function AddBook(props){
     
     return (
-        <button id="addBtn" onClick={props.handleClick}>
+        <button id="addBtn" style={props.BGColor} onClick={props.handleClick}>
             {props.text}
         </button>
     )
