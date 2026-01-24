@@ -53,10 +53,39 @@ button{
   font-weight: bold;
 }
 
-#addBtn{
+#addBtn, #submitBtn{
   margin-top: 20px;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
+}
+
+#addBtn{
   background-color: orange;
+}
+
+#submitBtn{
+  background-color: greenyellow;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 500px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+form > label{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form > label > input, 
+form > label > select,
+form > label > textarea{
+  padding: 8px;
+  border: 1px solid grey;
 }
