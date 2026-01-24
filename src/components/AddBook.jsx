@@ -1,7 +1,8 @@
-export default function AddBook(){
+export default function AddBook(props){
+    
     return (
-        <button id="addBtn">
-            Add New Book
+        <button id="addBtn" onClick={props.handleClick}>
+            {props.text}
         </button>
     )
 }

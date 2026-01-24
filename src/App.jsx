@@ -1,6 +1,5 @@
 import Header from "./components/Header"
 import Main from "./components/Main"
-import AddBook from "./components/AddBook"
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
       <Header />
       <div className="container">
         <Main />
-        <AddBook />
       </div>
     </>
   )
