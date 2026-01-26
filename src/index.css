@@ -34,6 +34,7 @@ article{
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-bottom: 30px;
 }
 article > img{
   height: 200px;
