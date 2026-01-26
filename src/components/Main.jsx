@@ -47,7 +47,7 @@ export default function Main(){
         <AddBook handleClick={toggle} text={btnText} BGColor={bgColor}/>
 
         {addingBook && 
-            <NewBook addEntry={addEntry} toggle={toggle} />
+            <NewBook addEntry={addEntry} toggle={toggle} entries={entries}/>
         }
         </>
     )
